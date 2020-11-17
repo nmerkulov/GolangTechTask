@@ -1,0 +1,9 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: secretpassword
+      POSTGRES_DB: buffs
+    ports:
+      - 5432:5432
