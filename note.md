@@ -55,3 +55,6 @@ requirements. Layouts can be different - layered with storage in the heart of ap
 i can do whatever you want until we support low coupling and high cohesion
 
 
+5) Testing
+I agree that test i wrote isn't idiomatic. The most idiomatic go-way of unit-testig is table-tests or closure-tests (which is pretty much the same but 
+looks better https://medium.com/@cep21/closure-driven-tests-an-alternative-style-to-table-driven-tests-in-go-628a41497e5e)
